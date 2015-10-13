@@ -18,7 +18,7 @@ public class MenuTestDrive {
         allMenus.add(dinerMenu);
         allMenus.add(cafeMenu);
 
-        //�޴��׸� �߰� �κ�
+        //메뉴 항목을 추가하는 부분
 
         dinerMenu.add(new MenuItem(
                 "파스타",
@@ -36,7 +36,7 @@ public class MenuTestDrive {
                 1.59
         ));
 
-        // �޴� �׸��� �߰��ϴ� �κ�
+        //메뉴 항목을 추가하는 부분
 
         Waitress waitress = new Waitress(allMenus);
 
