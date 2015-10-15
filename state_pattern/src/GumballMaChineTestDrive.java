@@ -10,7 +10,7 @@
 public class GumballMaChineTestDrive {
     public static void main(String[] args) {
         // 뽑기 알맹이의 개수를 초기화 한다.
-        GumballMachine gumballMachine = new GumballMachine(1);
+        GumballMachine gumballMachine = new GumballMachine(5);
 
         System.out.println(gumballMachine);
 
